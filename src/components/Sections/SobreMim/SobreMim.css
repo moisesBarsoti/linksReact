@@ -1,0 +1,56 @@
+.containerSobreMim {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.containerSobreMim h2 {
+    white-space: nowrap;
+    font-size: 2.6rem;
+    font-family: "Lora", sans-serif;
+}
+
+.containerSobreMim p {
+    width: 40rem;
+}
+
+.containerSobreMim .linksSobreMim ul {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 50%;
+    margin-top: 4rem;
+}
+
+.containerSobreMim .linksSobreMim ul li {
+    padding: 1rem 2rem;
+    background: var(--color-white-01);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.containerSobreMim .linksSobreMim ul li#instagram {
+    background: var(--color-bg-instagram);
+}
+
+.containerSobreMim .linksSobreMim ul li#github {
+    background: var(--color-bg-github);
+    border: solid 1px var(--color-white-01);
+}
+
+.containerSobreMim .linksSobreMim ul li#linkedin {
+    background: var(--color-bg-linkedin);
+}
+
+.containerSobreMim .linksSobreMim ul li:hover {
+    transform: scale(1.1);
+}
+
+.containerSobreMim .linksSobreMim ul li a {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    color: var(--color-white);
+    font-size: 1.2rem;
+}

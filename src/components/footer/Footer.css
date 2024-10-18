@@ -1,0 +1,17 @@
+.containerFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h3 {
+    font-weight: 500;
+}
+
+h3  {
+    font-family: 'Lora', sans-serif;
+}
+
+a {
+    color: var(--color-white);
+}

@@ -1,0 +1,89 @@
+.containerPrincipal {
+  display: flex;
+  justify-content: center;
+  flex-direction: row; 
+  gap: 1rem;
+}
+
+.menu {
+  position: fixed;
+  background-color: var(--color-black-05);
+  width: 350px;
+  height: 100%;
+  overflow: hidden;
+  z-index: 2;
+  left: 0; 
+  transition: height 0.3s ease;
+  padding: 2rem 0;
+}
+
+.menu.fechado {
+  height: 20px; 
+}
+
+.menu .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.sectionContainer {
+  margin-left: 350px; 
+  width: calc(100% - 350px); 
+  transition: margin-left 0.3s ease;
+}
+
+.menu.fechado ~ .sectionContainer {
+  margin-left: 0;
+  width: 100%;
+}
+
+.iconFecharMenu {
+  display: none;
+}
+
+section {
+  margin-left: 150px;
+  padding: 3rem;
+  min-height: 100vh;
+  z-index: 1;
+}
+
+section h2 {
+  font-size: 2rem;
+}
+
+section p {
+  margin-top: 1rem;
+  line-height: 1.3rem;
+}   
+
+section p span {
+  font-weight: 580;
+}
+
+footer {
+  width: 100%;
+  bottom: 0px;
+  padding: 1rem 2rem;
+  background: var(--color-bg-footer);
+}
+
+
+/* Animações */
+
+.menu .container,
+section {
+  animation: aparecer 2s ease-in-out backwards;
+  animation-delay: 2s;
+}
+.menu {
+  animation: irParaDireita 2s ease-in-out;
+}
+
+.menu.fechado {
+  animation: irParaCima 2s ease-in-out;
+  height: 20px;
+}
