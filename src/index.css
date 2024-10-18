@@ -168,14 +168,15 @@ body::-webkit-scrollbar-thumb {
     section {
       margin-left: 0px; 
       padding: 3rem;
-      min-height: 100vh;
+      min-height: 80vh;
       z-index: 1;
   }
 
     footer {
-      margin-left: 0px; 
-      padding: 3rem;
-      min-height: 90vh;
-      z-index: 1;
+      width: 100%;
+      bottom: 0px;
+      margin-left: 0px;
+      padding: 1rem 2rem;
+      background: var(--color-bg-footer);
   }
 }
