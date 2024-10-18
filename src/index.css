@@ -168,7 +168,7 @@ body::-webkit-scrollbar-thumb {
     section {
       margin-left: 0px; 
       padding: 3rem;
-      min-height: 80vh;
+      min-height: 65vh;
       z-index: 1;
   }
 
@@ -178,5 +178,9 @@ body::-webkit-scrollbar-thumb {
       margin-left: 0px;
       padding: 1rem 2rem;
       background: var(--color-bg-footer);
+  }
+
+  .menu.fechado {
+    height: 10px; 
   }
 }
