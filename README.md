@@ -1,7 +1,5 @@
 <h1 align="center"> Agregador de links </h1>
 
-![image](https://github.com/user-attachments/assets/70ccae1e-43ab-4c41-aee9-c3d03537959c)
-
 ![image](https://github.com/user-attachments/assets/f9eae975-e5d7-48fe-a41d-0ff36eb30c5c)
 
 
