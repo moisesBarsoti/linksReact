@@ -114,6 +114,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 /* Responsividade */
+
 @media (max-width: 65rem) {
   html {
       font-size: 70%;
@@ -160,6 +161,34 @@ body::-webkit-scrollbar-thumb {
       font-size: 60%;
     }
 }
+
+
+@media (max-width: 26rem) {
+    html {
+      font-size: 60%;
+    }
+
+    section {
+      margin-left: 0px; 
+      padding: 3rem;
+      min-height: 65vh;
+      z-index: 1;
+  }
+
+    footer {
+      width: 100%;
+      bottom: 0px;
+      margin-left: 0px;
+      padding: 1rem 2rem;
+      background: var(--color-bg-footer);
+  }
+
+  .menu.fechado {
+    height: 10px; 
+  }
+}
+
+
 @media (max-width: 24.5rem) {
     html {
       font-size: 50%;
