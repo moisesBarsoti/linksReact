@@ -17,7 +17,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - ReactJS
 - React-icons
-- Gh-pgaes
+- Gh-pages
 - Git e Github
 
 ## 💻 Projeto
